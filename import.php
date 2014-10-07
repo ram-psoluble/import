@@ -9,10 +9,10 @@ if (($handle = fopen('data.csv', 'r')) !== FALSE) {
   
   while (($data = fgetcsv($handle,",")) !== FALSE) {
 
-    $client       = $data[0]; 
-    $police       = $data[1]; 
+    $client       = $data[0];
+    $police       = $data[1];
     $rri          = $data[2]; 
-    $type_contrat = $data[3]; 
+    $type_contrat = $data[3];
     $code_insee   = $data[4]; 
     $flag         = $data[5];
 
